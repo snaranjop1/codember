@@ -1,0 +1,11 @@
+{
+  "name": "challenge-1",
+  "version": "1.0.0",
+  "description": "Solution for challenge01 codember",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Naranjo",
+  "license": "MIT"
+}
