@@ -1,5 +1,5 @@
 const checkPassword = (pwd) => {
-  let has55 = /([0-9]*)55([0-9]*)/g.test(pwd);
+  if (!pwd.toString().includes("55")) return false;
   let goet = true;
 
   pwd.split("").reduce((prev, curr) => {
@@ -7,7 +7,7 @@ const checkPassword = (pwd) => {
     return curr;
   }, 0);
 
-  return goet && has55;
+  return goet;
 };
 
 let possiblePwds = [];
